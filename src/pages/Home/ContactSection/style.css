@@ -3,10 +3,10 @@
 }
 
 .btn_contact_submit {
-  color: red;
+  color: white;
   padding: 25px;
   cursor: pointer;
-  background: linear-gradient(to right, #4070f4, #7c9df6);
+  background: -webkit-linear-gradient(#ddd6f3, #faaca8);
 }
 
 .contact_section {

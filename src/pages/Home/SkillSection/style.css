@@ -8,6 +8,7 @@
 
 .tech_logo_wrapper {
   margin-top: 50px;
+  margin-bottom: 50px;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   gap: 50px;
@@ -21,6 +22,7 @@
 
 .certificate {
   display: flex;
+  margin-bottom: 20px;
 }
 
 .solo-learn-img {
@@ -45,8 +47,8 @@
   height: 80%;
   left: 10%;
   top: 10%;
-  border-bottom: 1px solid #ffff89;
-  border-top: 1px solid #ffff89;
+  /* border-bottom: 1px solid #ffff89; */
+  /* border-top: 1px solid #ffff89; */
   -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
   transition: opacity 0.35s, transform 0.35s;
   -webkit-transform: scale(0, 1);

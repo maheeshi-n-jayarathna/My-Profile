@@ -14,7 +14,7 @@ function Home() {
       <Element className="home_page_wrapper">
         <HomeSection />
       </Element>
-      <Element className="bg-secound">
+      <Element className="bg-white">
         <AboutUsSection />
       </Element>
       <Element className="bg-white">
@@ -23,7 +23,7 @@ function Home() {
       {/* <Element className="bg-white">
         <ProjectSection />
       </Element> */}
-      <Element className="bg-secound">
+      <Element className="bg-white">
         <SkillSection />
       </Element>
       <Element className="bg-white">

@@ -14,9 +14,9 @@ import Logo from "./../../../assets/octal_logo_no_bg.png"
 function Footer() {
   return (
     <footer className="footer_container">
-      <p className="text-[12px]">
+      <p className="text1">
                     Copyright ©2024 All rights reserved | Developed by <span
-                    className="text-accent">Ruvini Rangathara</span>
+                    className="text-accent">Maheeshi Jayarathna</span>
                 </p>
     </footer>
   )

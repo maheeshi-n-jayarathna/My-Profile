@@ -1,11 +1,14 @@
 .footer_container{
   position: relative;
-  background-color: var(--footer-color);
-  color: var(--footer-text-color);
+  background: -webkit-linear-gradient(#ddd6f3, #faaca8);
   padding: 20px;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
+  justify-items: center;
+}
+
+.text1 {
+  color: black;
 }
 
 .footer_contact_wrapper {

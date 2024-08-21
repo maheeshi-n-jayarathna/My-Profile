@@ -2,6 +2,10 @@
   padding: 50px 5% 70px 5%;
 }
 
+.card_container .image{
+  
+}
+
 
 @media screen and (max-width: 768px) {
   .service_container {

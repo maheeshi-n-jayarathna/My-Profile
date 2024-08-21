@@ -7,13 +7,14 @@ import {
   Certificate5,
   Certificate6,
   Certificate7,
-  Certificate8
+  Certificate8,
+  Certificate9
 } from "../../../assets/achievement"
 import { Button, Checkbox, Col, Input, Row } from "antd"
 
 function TechnologiesSection() {
   return (
-    <div className="technologies_container">
+    <div id={'skill_id'} className="technologies_container">
       <h1 className="section_title text-center margin-0">
         <span style={{ color: "#16205F" }}>My Skills</span>
       </h1>
@@ -98,12 +99,12 @@ function TechnologiesSection() {
       <Row>
         <Col lg={8} sm={24}>
         <div className="certificate">
-                    <a href="https://www.sololearn.com/certificates/CT-EMJ0NYGL">
+                    <a target="_blank" href="https://www.sololearn.com/certificates/CT-LYWW3YRT">
                         <div class="hover-effect">
                             <img class="solo-learn-img" src={Certificate1}
                                 alt="java solo learn certificate"/>
                             <div class="overlay">
-                                <h2>Java Sololearn Certificate</h2>
+                                <h2>HTML Sololearn Certificate</h2>
                             </div>
                         </div>
                     </a>
@@ -112,12 +113,12 @@ function TechnologiesSection() {
 
         <Col lg={8} sm={24} >
         <div class="certificate">
-                    <a href="https://www.sololearn.com/certificates/CT-UOPECNRW">
+                    <a target="_blank" href="https://www.sololearn.com/certificates/CT-KNJFEPGG">
                         <div class="hover-effect">
                             <img class="solo-learn-img" src={Certificate2}
                                 alt="javaScript solo learn certificate"/>
                             <div class="overlay">
-                                <h2>JavaScript Sololearn Certificate</h2>
+                                <h2>JAVA Sololearn Certificate</h2>
                             </div>
                         </div>
                     </a>
@@ -126,12 +127,12 @@ function TechnologiesSection() {
 
         <Col lg={8} sm={24} >
         <div class="certificate">
-                    <a href="https://www.sololearn.com/certificates/CT-UOPECNRW">
+                    <a target="_blank" href="https://www.sololearn.com/certificates/CT-ZWGROJ6T">
                         <div class="hover-effect">
                             <img class="solo-learn-img" src={Certificate3}
                                 alt="javaScript solo learn certificate"/>
                             <div class="overlay">
-                                <h2>JavaScript Sololearn Certificate</h2>
+                                <h2>SQL Sololearn Certificate</h2>
                             </div>
                         </div>
                     </a>
@@ -140,12 +141,26 @@ function TechnologiesSection() {
 
         <Col lg={8} sm={24} >
         <div class="certificate">
-                    <a href="https://www.sololearn.com/certificates/CC-MXE3BOJC">
+                    <a target="_blank" href="https://api2.sololearn.com/v2/certificates/CC-EFS71EJZ">
                         <div class="hover-effect">
                             <img class="solo-learn-img" src={Certificate4}
                                 alt="css solo learn certificate"/>
                             <div class="overlay">
-                                <h2>css Sololearn Certificate</h2>
+                                <h2>Introduction to JavaScript Sololearn Certificate</h2>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+        </Col>
+
+        <Col lg={8} sm={24} >
+        <div class="certificate">
+                    <a target="_blank" href="https://api2.sololearn.com/v2/certificates/CC-PZ2VZUFC">
+                        <div class="hover-effect">
+                            <img class="solo-learn-img" src={Certificate5}
+                                alt="css solo learn certificate"/>
+                            <div class="overlay">
+                                <h2>Introduction to C</h2>
                             </div>
                         </div>
                     </a>
@@ -154,25 +169,12 @@ function TechnologiesSection() {
 
         <Col lg={8} sm={24}>
         <div class="certificate">
-                    <a href="https://www.sololearn.com/certificates/CC-XC6F8WLR">
-                        <div class="hover-effect">
-                            <img class="solo-learn-img" src={Certificate5}
-                                alt="html solo learn certificate"/>
-                            <div class="overlay">
-                                <h2>Html Sololearn Certificate</h2>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-        </Col>
-        <Col lg={8} sm={24}>
-        <div class="certificate">
-                    <a href="https://www.sololearn.com/certificates/CT-ADCWW2JR">
+                    <a target="_blank" href="https://olympus1.mygreatlearning.com/course_certificate/SZCNYSYJ">
                         <div class="hover-effect">
                             <img class="solo-learn-img" src={Certificate6}
-                                alt="sql solo learn certificate"/>
+                                alt="html solo learn certificate"/>
                             <div class="overlay">
-                                <h2>Sql Sololearn Certificate</h2>
+                                <h2>Introduction to JavaScript Grate Laerning Certificate</h2>
                             </div>
                         </div>
                     </a>
@@ -180,12 +182,12 @@ function TechnologiesSection() {
         </Col>
         <Col lg={8} sm={24}>
         <div class="certificate">
-                    <a href="https://www.sololearn.com/certificates/CT-2UJWAOJQ">
+                    <a target="_blank" href="https://olympus1.mygreatlearning.com/course_certificate/ZCUEWIFV">
                         <div class="hover-effect">
                             <img class="solo-learn-img" src={Certificate7}
                                 alt="sql solo learn certificate"/>
                             <div class="overlay">
-                                <h2>React Sololearn Certificate</h2>
+                                <h2>UI/UX Grate Laerning Certificate</h2>
                             </div>
                         </div>
                     </a>
@@ -193,12 +195,25 @@ function TechnologiesSection() {
         </Col>
         <Col lg={8} sm={24}>
         <div class="certificate">
-                    <a href="https://www.sololearn.com/certificates/CT-2UJWAOJQ">
+                    <a target="_blank" href="https://olympus1.mygreatlearning.com/course_certificate/SBSLPZTT">
                         <div class="hover-effect">
                             <img class="solo-learn-img" src={Certificate8}
                                 alt="sql solo learn certificate"/>
                             <div class="overlay">
-                                <h2>React Sololearn Certificate</h2>
+                                <h2>SQL Grate Laerning Certificate</h2>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+        </Col>
+        <Col lg={8} sm={24}>
+        <div class="certificate">
+                    <a target="_blank" href="https://olympus1.mygreatlearning.com/course_certificate/GSQCHDQN">
+                        <div class="hover-effect">
+                            <img class="solo-learn-img" src={Certificate9}
+                                alt="sql solo learn certificate"/>
+                            <div class="overlay">
+                                <h2>Programming Basic Grate Laerning Certificate</h2>
                             </div>
                         </div>
                     </a>

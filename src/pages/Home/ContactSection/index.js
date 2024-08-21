@@ -101,7 +101,7 @@ function ContactSection() {
   }
 
   return (
-    <div className="contact_page">
+    <div id={'contact_id'} className="contact_page">
       <ToastContainer position="top-right" />
       <Row
         style={{
@@ -115,18 +115,40 @@ function ContactSection() {
             <div className="contact_section">
               <h1>Maheeshi Jayarathna</h1>
               <h1>maheeshijayarathna@gmail.com</h1>
-              <div>
-                
-              </div>
+              <div className="mt-4 flex justify-center space-x-4">
+                        <a
+                            href="https://web.facebook.com/ruvini.rangathara.96"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           className="text-blue-500 hover:text-blue-700"
+                        >
+                            <i className="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://x.com/Ruvini489"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           className="text-blue-300 hover:text-blue-500"
+                        >
+                            <i className="fab fa-twitter"></i></a>
+                        <a
+                            href="https://www.instagram.com/ruvinirangathara/"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           className="text-pink-500 hover:text-pink-700"
+                        >
+                            <i className="fab fa-instagram"></i>
+                        </a>
+                    </div>
             </div>
           </div>
         </Col>
         <Col lg={14}>
           <form className="contact_form">
+            <Row>
             <div style={{ paddingBottom: "20px" }}>
                 <h1
                   style={{
-                    color: "var(--main-color)",
+                    color: "#ddd6f3",
                     fontSize: "40px"
                   }}
                 >
@@ -138,7 +160,6 @@ function ContactSection() {
                   contact form.
                 </p>
               </div>
-            <Row>
               {/* <Col lg={12} sm={24}>
                 <p className="form_lable">
                   Your Name<sup style={{ color: "red" }}>*</sup>
@@ -210,7 +231,6 @@ function ContactSection() {
               </Col> */}
               <Col sm={24} style={{}}>
                 <Button
-                  disabled={!isChecked}
                   className="btn_contact_submit"
                   onClick={handleSubmit}
                 >

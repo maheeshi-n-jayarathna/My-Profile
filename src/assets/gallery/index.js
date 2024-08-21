@@ -8,6 +8,7 @@ import Gallery6 from "./gallery6.jpg"
 import Gallery7 from "./gallery7.jpg"
 import Gallery8 from "./gallery8.jpg"
 import Gallery9 from "./gallery9.jpg"
+import Gallery10 from "./gallery10.jpg"
 
 export {
     Gallery,
@@ -19,5 +20,6 @@ export {
     Gallery6,
     Gallery7,
     Gallery8,
-    Gallery9
+    Gallery9,
+    Gallery10
 }

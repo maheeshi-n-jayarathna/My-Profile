@@ -35,11 +35,10 @@ function HomeSection() {
           {textItems[currentIndex]}
         </span>
             </h1>
-            <Subheading>
-              Our services encompass custom software development, web and mobile
-              application development, cloud computing solutions, and IT
-              consulting, catering to various industries and client needs.
-            </Subheading>
+            <p>
+            I'm a Software Engineer from Sri Lanka, specializing in Frontend Development, Web
+            Development, and UX/UI designing.
+            </p>
             <br />
             <br />
             {/* <BlueLine width="100%" height="2px" /> */}
