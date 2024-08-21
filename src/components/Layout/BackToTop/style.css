@@ -1,0 +1,16 @@
+.back_to_top_wrapper {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 100;
+  cursor: pointer;
+  border-radius: 100%;
+  padding: 5px;
+  width: 32px;
+  height: 32px;
+}
+
+.back_to_top_wrapper:hover {
+  background-color: var(--main-color);
+  color: #fff;
+}

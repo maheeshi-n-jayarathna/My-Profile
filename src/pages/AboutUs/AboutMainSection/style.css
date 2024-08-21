@@ -1,0 +1,93 @@
+.aboutus_container {
+    min-height: 100vh;
+}
+
+.aboutus_container_wrapper {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+
+    background-image: url("https://res.cloudinary.com/dqlhu94pv/image/upload/v1718082980/home_bg_ube7fm.png");
+    background-repeat: no-repeat;
+    background-position: right 0 top 50px;
+    background-size: auto;
+}
+
+.aboutus_main_section {
+    display: block;
+    max-width: 600px;
+    width: 100%;
+}
+
+.main_container {
+    display: flex;
+    text-align: start;
+    justify-content: space-between;
+}
+
+ 
+
+
+.sub_container {
+    margin-left: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.sub_container img {
+    display: block;
+    max-width: 500px;
+    width: 100%;
+}
+
+.text-primary {
+    color: var(--main-color) !important;
+    text-align: left;
+}
+
+.heading {
+    font-size: 45px;
+    font-family: "Roboto";
+    font-weight: 600;
+    margin-top: 0%;
+}
+
+.desc {
+    font-size: 0.875rem;
+  
+    line-height: 1.25rem;
+  
+    color: #043762;
+}
+
+.second_main_container{
+    display: flex;
+     
+    
+}
+
+@media screen and (max-width: 1023px) {
+    .sub_container {
+      margin-left: 0;
+    }
+  
+    .sub_container img {
+      display: none;
+    }
+  
+    .main_container {
+      justify-content: center;
+      text-align: center;
+    }
+  
+    .aboutus_main_section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  

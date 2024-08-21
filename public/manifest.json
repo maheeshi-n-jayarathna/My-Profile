@@ -1,0 +1,15 @@
+{
+  "short_name": "Octal Technologies",
+  "name": "Octal Technologies | Crafting future innovations with next-wave",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "96x96px 64x64 48x48px 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

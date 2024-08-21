@@ -1,0 +1,10 @@
+.service_container {
+  padding: 50px 5% 70px 5%;
+}
+
+
+@media screen and (max-width: 768px) {
+  .service_container {
+    padding: 50px 20px;
+  }
+}
