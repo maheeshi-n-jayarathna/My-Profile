@@ -18,19 +18,27 @@ function AboutUsSection() {
           <div className="text_container">
             <div className="text-desc">
               <p>
-                At Octal Technologies, we stand out with our innovative approach,
-                unwavering commitment to quality, and dedication to client
-                satisfaction. Embracing emerging technologies and adapting swiftly to
-                the ever-evolving digital landscape, we prioritize collaboration to
-                deliver exceptional results.
+                Hello, I’m Maheeshi Jayarathna. I’m 23 years old. I’m a developer living in Kegalle,
+                Sri Lanka. I’m currently studying in Institute Software Engineering (IJSE).
+                I also have knowledge of web development,
+                UI / UX designing, database management and frameworks.
+                I am dedicated to quest of developing solutions that leverage on best practise technologies to deliver over the top user experience. Also Contact me to get the
+                service you need in these areas creatively, efficiently and cleanly.
+                Also, if you want to receive services in a very friendly manner,
+                <b> please</b>
+                    <a href="http://wa.me/+94704042310?text=Hello,Ishara" target="_blank"> Contact Me</a>
+                    <b> or</b> <a href="mailto:maheeshijayarathna@gmail.com" target="_blank"> Send an E-mail </a> <b>for
+                    me.</b>
               </p>
             </div>
+            <a href="" download>
             <Button
                   className="btn_contact_submit"
                   // onClick={handleSubmit}
                 >
                   Download CV
                 </Button>
+                </a>
             <h1 className="education-text">Education</h1>
             <div className="education">
               <Row>

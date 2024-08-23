@@ -49,6 +49,8 @@ button {
   height: 50px;
   margin-bottom: 40px;
   margin-right: 40px;
+  border-color: black;
+  border-width: 2px;
 }
 
 /* .contact-container-left img {

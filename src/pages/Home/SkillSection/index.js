@@ -10,13 +10,13 @@ import {
   Certificate8,
   Certificate9
 } from "../../../assets/achievement"
-import { Button, Checkbox, Col, Input, Row } from "antd"
+import { Col, Row } from "antd"
 
 function TechnologiesSection() {
   return (
     <div id={'skill_id'} className="technologies_container">
       <h1 className="section_title text-center margin-0">
-        <span style={{ color: "#16205F" }}>My Skills</span>
+        <span className="text-primary">My </span>Skills
       </h1>
       <div className="tech_logo_wrapper">
         <img

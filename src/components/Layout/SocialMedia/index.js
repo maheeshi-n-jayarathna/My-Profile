@@ -11,21 +11,21 @@ import { useEffect, useState } from "react"
 const socialMediaData = [
   {
     animationData: animationFBData,
-    link: "https://www.facebook.com/beecele",
+    link: "https://web.facebook.com/naveendana.jayarathna?mibextid=LQQJ4d&_rdc=1&_rdr",
     borderless: true
   },
   {
     animationData: animationLDData,
-    link: "https://au.linkedin.com/company/beecele?trk=public_profile_topcard-current-",
+    link: "https://www.linkedin.com/in/maheeshi-jayarathna-56187024a/",
     borderless: true
   },
   {
     animationData: animationWData,
-    link: "https://wa.me/your-whatsapp-number"
+    link: "https://wa.me/0704042310"
   },
   {
     animationData: animationInstaData,
-    link: "https://www.instagram.com/beecele_/"
+    link: "https://www.instagram.com/maheeshijayarathn/"
   }
 ]
 

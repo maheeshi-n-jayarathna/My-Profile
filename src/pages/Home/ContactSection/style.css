@@ -13,6 +13,11 @@
   color: hsl(207, 92%, 20%);
 }
 
+.contact_section h1 {
+  font-size: 20px;
+  font-weight: 200;
+}
+
 .contact_section > div {
   display: flex;
   align-items: center;
@@ -21,6 +26,9 @@
 
 .contact_left {
   padding: 40px;
+  padding-top: 200px;
+  justify-content: center;
+  justify-items: center;
 }
 
 .contact_form {
