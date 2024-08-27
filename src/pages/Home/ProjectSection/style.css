@@ -1,0 +1,13 @@
+.project-card .image{
+    border-radius: 10px;
+    height: 200px;
+}
+
+.title {
+    font-weight: 600;
+    padding: 5px;
+}
+
+.project {
+    padding: 20px;
+}

@@ -13,50 +13,62 @@ function ServicesSection() {
     {
       image: <img className="image" src={Services1} />,
       heading: "Backend Development",
-      body: "Develop robust and scalable backend systems using modern frameworks and technologies to ensure high performance and security.",
-      heading1: <div className="">
-              <Button >Java</Button>
-              <div className={'service-name'} >NodeJs</div>
-              <div className={'service-name'} >Spring</div>
-              <div className={'service-name'} >SpringBoot</div>
-              <div className={'service-name'} >Python</div>
-              <div className={'service-name'} >NestJs</div>
-              <div className={'service-name'} >MongoDB</div>
-              <div className={'service-name'} >MySQL</div>
-              <div className={'service-name'} >PostgreSQL</div>
-          </div>
+      body: <div className="">
+              Develop robust and scalable backend systems using modern
+              frameworks and technologies to ensure high performance and security.
+              <div className="body-button">
+                <Button >Java</Button>
+                <Button >Spring</Button>
+                <Button >SpringBoot</Button>
+              </div>
+              <div className="body-button">
+                <Button >MySQL</Button>
+              </div>
+            </div>
     },
     {
       image: <img className="image" src={Services2} />,
       heading: "Frontend Development",
-      body: "We specialize in developing high-performance, feature-rich mobile apps for iOS, Android, and cross-platform solutions, ensuring user engagement and retention.",
-      text: <div className="">
-              <Button >Java</Button>
-              <div className={'service-name'} >NodeJs</div>
-              <div className={'service-name'} >Spring</div>
-              <div className={'service-name'} >SpringBoot</div>
-              <div className={'service-name'} >Python</div>
-              <div className={'service-name'} >NestJs</div>
-              <div className={'service-name'} >MongoDB</div>
-              <div className={'service-name'} >MySQL</div>
-              <div className={'service-name'} >PostgreSQL</div>
-          </div>
+      body: <div className="">
+              Create dynamic and responsive user interfaces with cutting-edge
+              frontend technologies to provide an exceptional user experience.
+              <div className="body-button">
+                <Button >HTML5</Button>
+                <Button >CSS3</Button>
+                <Button >Javascript</Button>
+              </div>
+              <div className="body-button">
+                <Button >Typescript</Button>
+                <Button >React</Button>
+                <Button >Bootstrap</Button>
+              </div>
+              <div className="body-button">
+                <Button >Next.js</Button>
+                <Button >SCSS</Button>
+                <Button >Reactstrap</Button>
+              </div>
+              <div className="body-button">
+                <Button >Tailwind CSS</Button>
+                <Button >JQuery</Button>
+                <Button >Ajex</Button>
+              </div>
+              <div className="body-button">
+                <Button >Axios</Button>
+              </div>
+            </div>
     },
     {
       image: <img className="image" src={Services3} />,
       heading: "Other Technologies",
-      body: "Our team of talented designers specializes in creating intuitive, visually appealing, and engaging user interfaces and that drive adoption and success in software products.",
-      text: <div className="">
-              <Button >Java</Button>
-              <div className={'service-name'} >NodeJs</div>
-              <div className={'service-name'} >Spring</div>
-              <div className={'service-name'} >SpringBoot</div>
-              <div className={'service-name'} >Python</div>
-              <div className={'service-name'} >NestJs</div>
-              <div className={'service-name'} >MongoDB</div>
-              <div className={'service-name'} >MySQL</div>
-              <div className={'service-name'} >PostgreSQL</div>
-          </div>
+      body: <div className="">
+              Leverage a wide range of tools & platforms to deliver comprehensive
+              solutions, including version control, integration.
+              <div className="body-button">
+                <Button >Git</Button>
+                <Button >GitHub</Button>
+                <Button >Firebase</Button>
+              </div>
+            </div>
     }
   ]
 
@@ -71,7 +83,7 @@ function ServicesSection() {
             image={obj.image}
             heading={obj.heading}
             body={obj.body}
-            heading1={obj.heading1}
+            text={obj.text}
             key={index}
           />
         ))}

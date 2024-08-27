@@ -4,7 +4,7 @@ import AboutUsSection from "./AboutUsSection"
 import ServicesSection from "./ServicesSection"
 import SkillSection from "./SkillSection"
 import ContactSection from "./ContactSection"
-// import ProjectSection from "./ProjectSection"
+import ProjectSection from "./ProjectSection"
 import GallerySection from "./GallerySection"
 import { Element } from "react-scroll"
 
@@ -20,9 +20,9 @@ function Home() {
       <Element className="bg-white">
         <ServicesSection />
       </Element>
-      {/* <Element className="bg-white">
+      <Element className="bg-white">
         <ProjectSection />
-      </Element> */}
+      </Element> 
       <Element className="bg-white">
         <SkillSection />
       </Element>

@@ -79,6 +79,16 @@
   color: white;
 }
 
+@media screen and (max-width: 768px) {
+  .home_container_wrapper {
+    margin-left: 50px;
+  }
+
+  .heading {
+    font-size: xx-large;
+  }
+}
+
 @media screen and (max-width: 1023px) {
   .sub_container {
     margin-left: 0;

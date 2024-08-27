@@ -142,22 +142,7 @@
 .mobile_nav-link.active {
   color: #ffffff;
   font-weight: 400 !important;
-}
-
-@media (max-width: 767px) {
-  .nav_container {
-    padding: 5px 20px;
-  }
-  .nav_container img {
-    height: 50px;
-  }
-  .nav-link .lang {
-    font-size: 11px;
-  }
-} */
-
-
-
+}*/
 
 .nav-container {
   width: 100%;
@@ -183,3 +168,21 @@
   cursor: pointer;
   color: white;
 }
+
+@media (max-width: 767px) {
+  .nav-link{
+    display: flex;
+    gap: 20px;
+  }
+
+  .nav_container {
+    padding: 5px 20px;
+    width: 50%
+  }
+  .nav_container img {
+    height: 50px;
+  }
+  .nav-link .lang {
+    font-size: 11px;
+  }
+} 

@@ -7,8 +7,14 @@ import {
   image2
 } from "../../../assets/aboutUsPageImages"
 import { Button, Checkbox, Col, Input, Row } from "antd"
+import CVPath from '../../../assets/pdf/Maheeshi Jayarathna - CV.pdf';
 
 function AboutUsSection() {
+  const handleSubmit = () => {
+    // Replace with the actual URL to your CV file
+    const cvUrl = CVPath;
+    window.open(cvUrl, '_blank');
+};
   return (
     <div id={'about_id'} className="about_container">
       <h1 className="section_title">
@@ -34,14 +40,14 @@ function AboutUsSection() {
             <a href="" download>
             <Button
                   className="btn_contact_submit"
-                  // onClick={handleSubmit}
+                  onClick={handleSubmit}
                 >
                   Download CV
                 </Button>
                 </a>
             <h1 className="education-text">Education</h1>
             <div className="education">
-              <Row>
+              <Row className="edu">
                 <Col>
                   <img src={image2} />
                 </Col>
@@ -52,7 +58,7 @@ function AboutUsSection() {
                 </Col>
               </Row>
 
-              <Row>
+              <Row className="edu">
                 <Col>
                   <img src={image1} />
                 </Col>
@@ -63,7 +69,7 @@ function AboutUsSection() {
                 </Col>
               </Row>
 
-              <Row>
+              <Row className="edu">
                 <Col>
                   <img src={image1} />
                 </Col>
