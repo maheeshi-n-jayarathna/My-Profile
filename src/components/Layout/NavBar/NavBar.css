@@ -171,8 +171,7 @@
 
 @media (max-width: 767px) {
   .nav-link{
-    display: flex;
-    gap: 20px;
+    gap: 10px;
   }
 
   .nav_container {

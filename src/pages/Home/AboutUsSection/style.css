@@ -1,6 +1,6 @@
 .about_container {
   position: relative;
-  padding: 50px 0px 70px 150px;
+  padding: 50px 150px 70px 150px;
 }
 
 .section_title {
@@ -21,7 +21,6 @@
   flex-direction: row; 
   /* justify-content: center; */
   height: 100%;
-  width: 100%;
 }
 
 .text_container {

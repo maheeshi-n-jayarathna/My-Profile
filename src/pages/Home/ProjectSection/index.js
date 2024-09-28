@@ -23,7 +23,26 @@ import {
     Project62,
     Project7,
     Project71,
-    Project72
+    Project72,
+    Project8,
+    Project81,
+    Project9,
+    Project91,
+    Project10,
+    Project101,
+    Project102,
+    Project103,
+    Project110,
+    Project111,
+    Project112,
+    Project113,
+    Project114,
+    Project115,
+    Project116,
+    Project117,
+    Project12,
+    Project121,
+    Project122
   } from "../../../assets/project"
 import "./style.css"
 
@@ -64,6 +83,27 @@ const projectData = [{
     githubLink: 'https://github.com/maheeshi-n-jayarathna/Travel-Planning-System',
     liveLink: 'https://example.com/project1',
 }, {
+    image: Project8,
+    title: 'Fast Food Management System',
+    description: 'A robust solution implemented using microservices and Spring Boot, designed to efficiently manage travel packages, bookings, and customer details, ensuring a seamless travel planning experience.',
+    images: [Project8, Project81],
+    githubLink: 'https://github.com/maheeshi-n-jayarathna/Online-Food-Delivery-FrontEnd',
+    liveLink: 'https://example.com/project1',
+}, {
+    image: Project10,
+    title: 'Memory Game',
+    description: 'A robust solution implemented using microservices and Spring Boot, designed to efficiently manage travel packages, bookings, and customer details, ensuring a seamless travel planning experience.',
+    images: [Project10, Project101, Project102, Project103],
+    githubLink: 'https://github.com/maheeshi-n-jayarathna/Memory-Game',
+    liveLink: 'https://example.com/project1',
+}, {
+    image: Project9,
+    title: 'Connect-4-Game',
+    description: 'A robust solution implemented using microservices and Spring Boot, designed to efficiently manage travel packages, bookings, and customer details, ensuring a seamless travel planning experience.',
+    images: [Project9, Project91],
+    githubLink: 'https://github.com/maheeshi-n-jayarathna/Connect4-Game',
+    liveLink: 'https://example.com/project1',
+}, {
     image: Project2,
     title: 'Hostel Management System',
     description: 'Hostel management system application designed for a hostel to handle customer , user , students and rooms.',
@@ -75,7 +115,21 @@ const projectData = [{
     title: 'Fabric Zone Management System',
     description: 'Fabric Zone management system designed for a tailor shop to handle customer and item details and allows the seller to manage the daily tasks more conveniently and effectively with order details.',
     images: [Project6, Project61, Project62],
-    githubLink: '',
+    githubLink: 'https://github.com/maheeshi-n-jayarathna/Tailor-Shop-Management-System-Layered-Architect',
+    liveLink: 'https://example.com/project1',
+}, {
+    image: Project110,
+    title: 'MISS-DO Mobile App',
+    description: 'A simple to-do list app that helps users manage tasks efficiently.',
+    images: [Project110, Project111, Project112, Project113, Project114, Project115, Project116, Project117],
+    githubLink: 'https://github.com/maheeshi-n-jayarathna/MISS-DO-Mobile-App',
+    liveLink: 'https://example.com/project1',
+}, {
+    image: Project12,
+    title: 'Country Comparison System',
+    description: '',
+    images: [Project12, Project121, Project122],
+    githubLink: 'https://github.com/maheeshi-n-jayarathna/country-comparison',
     liveLink: 'https://example.com/project1',
 },];
 
@@ -213,7 +267,7 @@ const Section = () => {
     }, []);
 
     return (<section
-        className="mt-10 relative bg-site bg-cover bg-no-repeat text-white flex justify-center items-center xl:h-[50vh] xs:h-[40vh] xs:px-6">
+        className="mt-10 relative bg-site bg-cover bg-no-repeat text-white flex justify-center items-center xl:h-[50vh] xs:h-[40vh] project-section xs:px-6">
         <div className="absolute inset-0 bg-accent bg-opacity-40"></div>
         <div
             data-aos={'fade-up'}

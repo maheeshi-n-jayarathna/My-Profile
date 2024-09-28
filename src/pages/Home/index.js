@@ -11,7 +11,7 @@ import { Element } from "react-scroll"
 function Home() {
   return (
     <>
-      <Element className="home_page_wrapper">
+      <Element className="">
         <HomeSection />
       </Element>
       <Element className="bg-white">

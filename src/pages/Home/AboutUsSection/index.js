@@ -87,7 +87,7 @@ function AboutUsSection() {
               <img src={image}/>
             </div>
           </div>
-          </div>
+        </div>
     </div>
   )
 }
